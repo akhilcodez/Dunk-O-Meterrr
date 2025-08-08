@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biscuit Dip Timer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="dunk-animate">Dunk-O-Meter</h1>
+    <p>Select your biscuit and start the countdown before it cracks in tea!..</p>
+  </header>
+  <div id="cameraWindow">
+    <video id="barcodeVideo" autoplay muted></video>
+  </div>
+  <main>
+    <section class="timer-container">
+      <label for="biscuitSelect">Choose Biscuit Brand:</label>
+      <select id="biscuitSelect">
+        <option value="">-- Select a Biscuit --</option>
+        <option value="Parle-G">Parle-G</option>
+        <option value="Marie Gold">Marie Gold</option>
+        <option value="Oreo">Oreo</option>
+        <option value="Hide & Seek Fab">Hide & Seek Fab</option>
+      </select>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <button id="startButton">Start Timer</button>
+        <button id="resetButton">Reset</button>
+      </div>
+      <button id="scanBarcodeBtn">Scan Barcode</button>
+      <div id="cameraWindow" style="display:none; justify-content:center; align-items:center; width:100%; margin-top:1rem;">
+        <video id="barcodeVideo" style="width:100%; max-width:320px; border-radius:1rem; box-shadow:0 4px 24px #ffa726; background:#222;" autoplay muted></video>
+      </div>
+  <div id="countdownDisplay">Time left: --</div>
+</section>
+
+<section class="instructions">
+  <h2>How It Works</h2>
+  <ul>
+    <li>Each biscuit has a unique dissolve time when dipped in tea at ~65°C.</li>
+    <li>Select your biscuit from the list.</li>
+    <li>Start the timer and dip your biscuit immediately.</li>
+    <li>When the buzzer sounds, take the biscuit out!</li>
+  </ul>
+</section>
+
+  </main>  <footer>
+    <p>© 2025 Biscuit Dip Timer. Made for science & fun!</p>
+  </footer><audio id="buzzer" src="ipl.mp3" preload="auto"></audio>
+
+  <script src="java.js"></script>
+  <script src="barcode.js"></script>
+</body>
+</html>
