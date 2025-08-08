@@ -53,7 +53,7 @@ cd Dunk-O-Meter
 
 open index.html
 Or host it with GitHub Pages for instant tea-time deployment.
-
+```
 ### Project Documentation
 For Software:
 
