@@ -58,13 +58,13 @@ Or host it with GitHub Pages for instant tea-time deployment.
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](ss1.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](ss2.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](ss3.png)
 *Add caption explaining what this shows*
 
 # Diagrams
