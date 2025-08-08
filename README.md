@@ -10,7 +10,7 @@
 
 ### Team Members
 - Member 1: ABHISHEK V - GEC IDUKKI
-- Member 2: AKHIRAJ KP - GEC IDUKKI
+- Member 2: AKHILRAJ KP - GEC IDUKKI
 
 ### Project Description
 A fun, browser-based biscuit monitoring app that alerts you with a buzzer sound right before your biscuit dissolves into tea saving you from messy crumbs and heartache.
