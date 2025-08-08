@@ -68,35 +68,14 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Workflow](dia.png)
+*From Dip to Delight – Biscuit Rescue MissionFrom Dip to Delight – Biscuit Rescue Mission*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1PqKnkMVXd-B2xw8C--KFPRQrsFRemxPh/view?usp=sharing]
+*This video shows the Biscuit Dip Timer in action — scanning the biscuit packet, detecting its brand, starting the countdown, and sounding the buzzer just in time to save it from drowning in tea*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - ABHISHEK V: UI/UX, HTML
